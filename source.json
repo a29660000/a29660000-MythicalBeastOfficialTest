@@ -1,0 +1,161 @@
+{
+	"model": [{
+		"gameType": "Animation",
+		"name": "龍太子",
+		"scale": 0.02,
+		"source": ["mesh.fbx", "texture.png", "Throw.fbx"],
+		"qrcode": "http://PrinceDragonwilisthebestwill"
+	}, {
+		"gameType": "Q&A",
+		"name": "虎爺將軍",
+		"scale": 0.8,
+		"y": 0,
+		"qrcode": "http://GeneralTigerwilisthebestwill",
+		"question": "猜猜看那些是魯班公發明的工具?",
+		"options": ["鋸子","曲尺","墨斗","以上皆是"],
+		"source": ["mesh.fbx", "texture.png", "Yes.fbx","No.fbx"],
+		"answer": 3
+	}, {
+		"gameType": "Q&A",
+		"name": "鳳凰姐姐",
+		"scale": 0.25,
+		"y": 0,
+		"source": ["mesh.fbx", "texture.png", "Yes.fbx","No.fbx"],
+		"qrcode": ["http://PhoenixDancerwilisthebestwill"],
+		"question": "哪個發源自宜蘭的傳統戲曲?",
+		"options": ["歌仔戲","布袋戲","北管南管"],
+		"answer": 0
+		}, {
+		"gameType": "Animation",
+		"name": "柑仔龜",
+		"scale": 0.1,
+		"y": 0,
+		"source": ["mesh.fbx", "texture.png", "Throw.fbx"],
+		"qrcode": "http://GoodluckTurtlewilisthebestwill"
+	}, {
+		"gameType": "Q&A",
+		"name": "吉利 (麒麟)",
+		"scale": 0.15,
+		"y": 0,
+		"source": ["mesh.fbx", "texture.png", "Yes.fbx","No.fbx"],
+		"qrcode": "http://AuspiciousKirinwilisthebestwill",
+		"question": "考考你哪些是傳統工藝?",
+		"options": ["剪粘","泥塑","木雕","漆器","以上皆是"],
+		"answer": 4
+	}, {
+		"gameType": "paper rock scissors",
+		"name": "鰲魚奶奶",
+		"y": 0,
+		"scale": 0.1,
+		"source": ["mesh.fbx", "texture.png", "Yes.fbx","No.fbx"],
+		"qrcode": "http://GrannyAoFishwilisthebestwill"
+	}, {
+		"gameType": "Q&A",
+		"name": "金有蝠爺爺",
+		"scale": 0.02,
+		"qrcode": "http://BlessingBatwilisthebestwill",
+		"question": "找找看,我都出現在廣孝堂的哪邊?",
+		"options": ["柱子上","地板","心裡"],
+		"source": ["mesh.fbx", "texture.png", "Yes.fbx","No.fbx"],
+		"answer": 0
+	}, {
+		"gameType": "Animation",
+		"name": "甲子大爺(螃蟹)",
+		"scale": 0.09,
+		"y": 0,
+		"source": ["mesh.fbx", "texture.png", "Throw.fbx"],
+		"qrcode": "http://LordWealthyCrabwilisthebestwill"
+	}, {
+		"gameType": "Q&A",
+		"name": "仙鶴一品文官",
+		"scale": 0.03,
+		"y": 0,
+		"source": ["mesh.fbx", "texture.png", "Yes.fbx","No.fbx"],
+		"qrcode": "http://CraneTheFirstranOfficialwilisthebestwill",
+		"question": "這裡曾經住著的是宜蘭的第一個舉人是對還是錯?",
+		"options": ["對","錯"],
+		"answer": 0
+	}, {
+		"gameType": "測試",	
+		"name": "派克墨水",
+		"scale": 0.02,
+		"source": ["mesh.fbx", "texture.png", "mesh.obj", "texture.jpg"],
+		"y": 0,
+		"qrcode": "https://166#010672512484853338171298701322938020014575766329330701437832165661332592031982224888347874675130693258586818527447766497328685661981083485080032378682682341341371426680000000853372549354596338683456011045976021458684164046693725346648159957497103842298677378533209346077277015976043427683"
+	}, {
+		"name": "測試",
+		"scale": 0.85,
+		"y": -8.5,
+		"qrcode": "GoFind"
+	}],
+	"dialogue": [{
+		"chapter": " ",
+		"title": "開始尋找神獸！"
+	}, {"character": 2,
+		"content": "冒險者，我是宜蘭傳藝園區的守護神　　—文昌帝君。"
+	}, {
+		"character": 2,
+		"content": "歡迎大家來到宜蘭傳藝園區，為了守護園區眾多的傳統文化與建築古蹟，我派駐了九隻神獸駐守在不同景點。"
+	}, {
+		"character": 2,
+		"content": "冒險者啊！請尋找牠們的身影吧，邀請他們成為夥伴，一起探索臺灣傳統文化吧！"
+	}, {
+		"close": true,
+		"find": 6
+	}, {
+		"character": " ",
+		"content": "咕嚕咕嚕~你可以搭船漫遊、靜享河岸光景，傍鄰冬山河內河道，順著坡道的街屋，高低交錯中呈現河岸建築的景緻，波光瀲灩、拱橋流水，享受河上靜謐的閒趣。"
+	}, {
+		"close": true,
+		"find": 9
+	}, {
+		"character": " ",
+		"content": "黃舉人宅是150歲的三合院建築，曾經住了宜蘭第一位舉人，只要你認真讀書也會青出於藍、更上一層樓，考試100分，成為一品文官！"
+	}, {
+		"close": true,
+		"find": 5
+	}, {
+		"content": "展示館的展覽展出很多臺灣傳統文物，這些重要的文化資產都由我們來守護，快找找有沒有我們的身影。"
+	}, {
+		"close": true,
+		"find": 4
+	}, {
+		"character": " ",
+		"content": "文昌祠是園區的信仰中心，想要祈求平安、學業、功名都可以來跟文昌帝君聊聊。你要不要吃橘子啊！"
+	}, {
+		"close": true,
+		"find": 2
+	}, {
+		"character": " ",
+		"content": "快看！魯班街這裡有很多精美的傳統工藝品，藍染、木藝、琉璃、金工等，本虎最喜歡這裡的手作體驗了！"
+	}, {
+		"close": true,
+		"find": 3
+	}, {
+		"character": " ",
+		"content": "臨水劇場每天都有好多的表演節目，有歌仔戲、布袋戲、偶劇、雜技等表演，來臨水劇場看我動人的表演吧~"
+	}, {
+		"close": true,
+		"find": 7
+	}, {
+		"content": "廣孝堂是100歲的家廟建築，原是宜蘭市鄭氏家廟，風格深具宜蘭特色，彩繪是在地曾萬一司阜所繪，也是目前僅存最完整的作品呀呀我還沒說完…"
+	}, {
+		"close": true,
+		"find": 8
+	}, {
+		"character": " ",
+		"content": "遇水則發！嘿嘿~這些霧氣都是財運呀！跟你介紹右邊是演藝廳(用各種腳指路)、左邊是鳳凰姐姐的臨水劇場、後面是曲藝館，我平常最喜歡看戲聽曲了。"
+	}, {
+		"close": true,
+		"find": 1
+	}, {
+		"character": " ",
+		"content": "文昌街是傳藝園區的主要街道，這裡百工匯集、熱鬧非凡，古色古香的牌樓街道充滿許多小賣店，讓我帶你逛街探尋。"
+	}, {
+		"close": true,
+		"find": 10
+	},{
+		"character": " ",
+		"content": "測試。"
+	}]
+}
