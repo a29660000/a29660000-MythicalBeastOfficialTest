@@ -1325,18 +1325,28 @@ a {
   cursor: pointer;
   white-space: nowrap; /* 防止文本换行 */
   margin-right: 10px; /* 与图片按钮的间距 */
+
+  height: 43px;
+
+  margin: 20px;
 }
 
 .link-button:hover {
   background-color: #a73500;
 }
 
-.image-button img {
-  width: 50px; /* 设置图片宽度 */
-  height: 50px; /* 设置图片高度 */
-  cursor: pointer;
-
+.image-button {
+  width: 43px; /* 设置按钮宽度 */
+  height: 43px; /* 设置按钮高度 */
   border-radius: 5px;
+  overflow: hidden; /* 确保图片不会溢出 */
+}
 
+.image-button img {
+  width: 100%; /* 图片宽度设为按钮宽度的100% */
+  height: 100%; /* 图片高度设为按钮高度的100% */
+  object-fit: cover; /* 确保图片填充按钮，并保持比例 */
+  cursor: pointer;
+  border-radius: 5px; /* 确保图片圆角与按钮一致 */
 }
 
